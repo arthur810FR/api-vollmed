@@ -15,3 +15,8 @@ spring:
 #    properties:
 #      hibernate.dialect: org.hibernate.dialect.MySQL8Dialect
 #      hibernate.jdbc.lob.non-contextual-creation: true
+
+api:
+  security:
+    token:
+      secret=: 12345678
