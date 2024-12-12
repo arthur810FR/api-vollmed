@@ -19,9 +19,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/login")
 public class AutenticacaoController {
 
-    @Value("api.security.token.secret")
-    private String secret;
-
     @Autowired
     private AuthenticationManager manager;
 
